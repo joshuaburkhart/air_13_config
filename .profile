@@ -1,3 +1,4 @@
+alias gav='git commit -av'
 alias pll='git pull origin master'
 alias psh='git push origin master'
 alias aciss='ssh -X -c blowfish-cbc,arcfour jburkhar@aciss.uoregon.edu'
