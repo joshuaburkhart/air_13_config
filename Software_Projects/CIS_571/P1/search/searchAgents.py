@@ -564,7 +564,7 @@ def foodHeuristic(state, problem):
            smallestFoodArc = min(foodDistances)
            smallestFoodPath += smallestFoodArc
            foodDistances.remove(smallestFoodArc)
-  return smallestFoodPath + min(mDistances)
+  return smallestFoodPath + (min(mDistances) if len(mDistances) > 0 else 0)
 
 class ClosestDotSearchAgent(SearchAgent):
   "Search for all food using a sequence of searches"
