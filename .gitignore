@@ -1,7 +1,5 @@
 *
-!Software_Projects/
 !.bash_profile
 !.profile
 !.vimrc
 !.gitignore
-*.swp
